@@ -224,9 +224,7 @@ function applyLang(lang) {
 
   const cvBtn = document.getElementById("cv-btn");
   if (cvBtn) {
-    cvBtn.href = `assets/Curriculo-ingles${
-      lang === "pt" ? "PT" : "EN"
-    }.docx`;
+    cvBtn.href = "assets/Curriculo-ingles.docx";
   }
 
   timelineItems.forEach((item, i) => {
