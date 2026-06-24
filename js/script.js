@@ -224,9 +224,9 @@ function applyLang(lang) {
 
   const cvBtn = document.getElementById("cv-btn");
   if (cvBtn) {
-    cvBtn.href = `assets/Curriculo - Wanny Barreto (ingles).docx${
+    cvBtn.href = `assets/Curriculo-ingles${
       lang === "pt" ? "PT" : "EN"
-    }.pdf`;
+    }.docx`;
   }
 
   timelineItems.forEach((item, i) => {
